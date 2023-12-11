@@ -1,0 +1,7 @@
+{
+  "name": "Fashionbuzz",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

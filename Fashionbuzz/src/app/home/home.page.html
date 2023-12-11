@@ -1,0 +1,48 @@
+
+<ion-content [fullscreen]="true">
+ <ion-list class="ion-margin" lines="full">
+  <ion-list-header>
+    <ion-label color="light">
+      Log into 
+      <ion-text class="ion-margin-bottom"><p>your account</p></ion-text>
+    </ion-label>
+  </ion-list-header>
+
+  <ion-item-group class="ion-margin-horizontal">
+    <ion-item class="ion-margin-vertical">
+      <ion-label color="light" position="stacked">
+        Username/Email
+      </ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+
+    <ion-item class="ion-margin-vertical">
+      <ion-label color="light" position="stacked">
+       Password
+      </ion-label>
+      <ion-input type="password"></ion-input>
+    </ion-item>
+   <ion-row class="ion-margin-bottom">
+    <ion-col size="12" class="alignItems">
+      <div align="left">
+        <ion-checkbox></ion-checkbox>
+        <ion-note color="light">Remember me</ion-note>
+      </div>
+    </ion-col>
+   </ion-row>
+  </ion-item-group>
+
+  <div class="ion-margin-bottom">
+    <ion-button color="dark" shape="round" class="ion-margin" expand="block">Login</ion-button>
+    <ion-button color="light" shape="round" class="ion-margin" expand="block"> <ion-icon slot="start" name="mail"></ion-icon>Login with google</ion-button>
+  </div>
+ </ion-list>
+</ion-content>
+
+<ion-footer class="ion-no-border">
+  <ion-toolbar>
+    <ion-text class="ion-margin ion-padding-start" color="light">Don't have an Account? <span>Sign Up</span></ion-text>
+  </ion-toolbar>
+</ion-footer>
+
+
